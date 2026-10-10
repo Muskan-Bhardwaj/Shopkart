@@ -1,0 +1,36 @@
+# Secret / Environment files
+.env
+.env.*
+!.env.example
+backened/.env
+Frontened/.env
+
+# Dependencies (ignores root, backened, and Frontened node_modules)
+node_modules/
+**/node_modules/
+
+# Build & Dist outputs
+dist/
+**/dist/
+dist-ssr/
+*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
